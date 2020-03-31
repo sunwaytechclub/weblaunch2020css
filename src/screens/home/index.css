@@ -1,0 +1,57 @@
+.Layout {
+  min-height: 100vh;
+}
+
+.Body {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Title {
+  font-size: 8vw;
+  margin-top: 3%;
+  color: #286fd8;
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+.Subtitle {
+  font-size: 4.5vw;
+  margin-top: 10px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #8db7f5;
+}
+
+.Learn-Button {
+  display: flex;
+  margin-top: 2.5vw;
+  justify-content: center;
+}
+
+.Learn-More {
+  background-color: #286fd8;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  padding: 1vw;
+  padding-left: 4vw;
+  font-size: 1.5vw;
+  padding-right: 4vw;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.Learn-More:hover {
+  background-color: #2159ae;
+  transition: 0.5s;
+}
+
+.Wave {
+  min-width: 100%;
+  max-width: 100%;
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+}
